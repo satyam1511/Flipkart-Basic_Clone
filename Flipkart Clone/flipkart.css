@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+:root {
+    --main-bg-color: #2455f4;
+    --main-font :'Poppins', sans-serif;
+  }
+  
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: var(--main-font);
+    background-color: var(--main-bg-color);
+    
+}
+
+nav{
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 53px;
+    margin-top: -13px;
+    padding: 10px;
+}
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav ul li{
+    padding: 0 23px;
+   list-style: none;
+}
+
+nav ul li a{
+   color: white;
+    text-decoration: none;
+ }
+ 
+nav ul li a:hover{
+    font-weight: 800;
+  }
+
+  .search-bar{
+    display: flex;
+    align-items: center;
+  }
+
+.search-bar input{
+    width: 30vw;
+    height: 28px;
+    border-radius: 10px;
+    margin: 0px 15px 0 56px;
+}  
+
+.search-bar button{
+    background-color: var(--main-bg-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+ .container{
+     min-height: calc(100vh - 58px - 12vh);
+
+ }
+
+ .slider{
+     width: 80vw;
+     margin: 12px auto;
+     overflow: hidden;
+ }
+
+ .card{
+     max-width: 91vw;
+     margin: auto;
+     font-family: 'Times New Roman', Times, serif;
+ }
+
+ .cards{
+     display: flex;
+     flex-direction: row;
+     /* align-items: center; */
+     justify-content: center;
+     /* margin-left: 116px; */
+
+ }
+
+ .card-item{
+     display: inline-flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: 0 30px;
+ }
+
+ .card h2{
+     font-family: 'Times New Roman', Times, serif;
+     margin: 12px 0;
+ }
+
+footer{
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color: white;
+    font-family: var(--main-font);
+}
